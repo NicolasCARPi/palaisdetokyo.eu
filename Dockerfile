@@ -1,4 +1,4 @@
-FROM deltablot/custom-http-nginx:latest
+FROM ghcr.io/deltablot/custom-http-nginx:latest
 COPY palaisdetokyo.eu.conf /etc/nginx/conf.d
 COPY src/ /app
 WORKDIR /app
